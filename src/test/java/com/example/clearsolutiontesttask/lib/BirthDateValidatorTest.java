@@ -1,6 +1,7 @@
 package com.example.clearsolutiontesttask.lib;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.LocalDate;
 import jakarta.validation.ConstraintValidatorContext;

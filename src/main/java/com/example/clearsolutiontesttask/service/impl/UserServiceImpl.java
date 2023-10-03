@@ -1,5 +1,6 @@
 package com.example.clearsolutiontesttask.service.impl;
 
+import com.example.clearsolutiontesttask.exception.DateRangeException;
 import com.example.clearsolutiontesttask.service.UserService;
 import com.example.clearsolutiontesttask.model.User;
 import com.example.clearsolutiontesttask.repository.UserRepository;
@@ -32,7 +33,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getUsersByBirthDate(LocalDate from, LocalDate to) {
         if (from.isAfter(to)) {
-            throw new RuntimeException("Invalid range of birth dates");
+            throw new DateRangeException("Invalid range of birth dates");
         }
         return userRepository.getUserByBirthDateBetween(from, to);
     }

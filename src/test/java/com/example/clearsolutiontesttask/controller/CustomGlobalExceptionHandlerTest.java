@@ -1,6 +1,7 @@
 package com.example.clearsolutiontesttask.controller;
 
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.hasSize;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
 import com.example.clearsolutiontesttask.service.impl.UserServiceImpl;

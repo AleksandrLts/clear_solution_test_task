@@ -1,6 +1,7 @@
 package com.example.clearsolutiontesttask.service.mapper;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import com.example.clearsolutiontesttask.dto.request.UserRequestDto;
 import com.example.clearsolutiontesttask.dto.response.UserResponseDto;
