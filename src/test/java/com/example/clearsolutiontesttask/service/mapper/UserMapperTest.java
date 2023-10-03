@@ -10,7 +10,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class UserMapperTest {
-
     private UserMapper userMapper;
     private static final String FIRST_NAME = "John";
     private static final String LAST_NAME = "Doe";

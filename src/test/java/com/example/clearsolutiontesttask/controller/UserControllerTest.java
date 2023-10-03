@@ -31,7 +31,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 @WebMvcTest(UserController.class)
 public class UserControllerTest {
-
     @Autowired
     private MockMvc mockMvc;
 

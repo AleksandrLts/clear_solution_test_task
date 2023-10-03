@@ -13,7 +13,6 @@ import org.springframework.beans.factory.annotation.Value;
 
 @ExtendWith(MockitoExtension.class)
 class BirthDateValidatorTest {
-
     @Mock
     private ConstraintValidatorContext constraintValidatorContext;
 
